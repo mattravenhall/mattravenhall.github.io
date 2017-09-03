@@ -17,7 +17,7 @@ Positive selection signals were identified within dhps, dhfr and gch1, all compo
 <br>
 **Conclusions**
 SP resistance selection pressures have been retained in the Malawian population, with known resistance dhfr mutations at fixation, complemented by a novel gch1 promoter duplication. The effects of the duplication on the fitness costs of SP variants and resistance need to be elucidated.
-<br>
+<br><br>
 [Full Text](https://malariajournal.biomedcentral.com/track/pdf/10.1186/s12936-016-1634-6?site=malariajournal.biomedcentral.com)
 <br>
-**Citation:** Matt Ravenhall, Ernest Diez Benavente, Mwapatsa Mipando, Anja T. R. Jensen, Colin J. Sutherland, Cally Roper, Nuno Sepúlveda, Dominic P. Kwiatkowski, Jacqui Montgomery, Kamija S. Phiri, Anja Terlouw, Alister Craig, Susana Campino, Harold Ocholla and Taane G. Clark. Characterizing the impact of sustained sulfadoxine/pyrimethamine use upon the Plasmodium falciparum population in Malawi. <i>Malaria Journal</i> 201615:575
+<p style="font-size=0.5em">**Citation:** Matt Ravenhall, Ernest Diez Benavente, Mwapatsa Mipando, Anja T. R. Jensen, Colin J. Sutherland, Cally Roper, Nuno Sepúlveda, Dominic P. Kwiatkowski, Jacqui Montgomery, Kamija S. Phiri, Anja Terlouw, Alister Craig, Susana Campino, Harold Ocholla and Taane G. Clark. Characterizing the impact of sustained sulfadoxine/pyrimethamine use upon the Plasmodium falciparum population in Malawi. <i>Malaria Journal</i> 201615:575</p>
