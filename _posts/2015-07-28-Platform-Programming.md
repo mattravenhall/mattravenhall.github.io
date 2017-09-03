@@ -4,7 +4,7 @@ title: "Platform Programming"
 date: 2015-07-28
 ---
 
-<img style="float: right; hspace=20; border: 2px solid black" src="/assets/yakultposter.png">
+<img style="float: right; alt="Yakult Poster"; hspace="20"; border: 1px solid black" src="/assets/yakultposter.png">
 
 Almost a year ago, I was travelling on the London Underground when I spotted the following advertisement/competition on the wall. I quickly realised that this is exactly the sort of problem which can quickly be solved with a simple bit of code. Why? Because despite the solution itself being fairly simple (grab a list of the tube names and remove any which include letters found within the given word, then return the left over station/s), the actual task of eliminating stations is boring, repetitive and slow. Exactly what computers are designed for.
 
