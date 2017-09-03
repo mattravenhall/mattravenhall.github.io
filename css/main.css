@@ -33,9 +33,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .5em;
-    position: fixed;
-    Width: 100%;
-    bottom: 10px;
 }
 
 ul.posts { 
