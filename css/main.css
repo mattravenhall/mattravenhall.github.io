@@ -34,7 +34,8 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .5em;
     position: fixed;
-    bottom: 0;
+    Width: 100%;
+    bottom: 10px;
 }
 
 ul.posts { 
