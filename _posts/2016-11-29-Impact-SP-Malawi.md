@@ -20,4 +20,4 @@ SP resistance selection pressures have been retained in the Malawian population,
 <br><br>
 [Full Text](https://malariajournal.biomedcentral.com/track/pdf/10.1186/s12936-016-1634-6?site=malariajournal.biomedcentral.com)
 <br>
-<p style="font-size=0.5em">**Citation:** Matt Ravenhall, Ernest Diez Benavente, Mwapatsa Mipando, Anja T. R. Jensen, Colin J. Sutherland, Cally Roper, Nuno Sepúlveda, Dominic P. Kwiatkowski, Jacqui Montgomery, Kamija S. Phiri, Anja Terlouw, Alister Craig, Susana Campino, Harold Ocholla and Taane G. Clark. Characterizing the impact of sustained sulfadoxine/pyrimethamine use upon the Plasmodium falciparum population in Malawi. <i>Malaria Journal</i> 201615:575</p>
+<p style="font-size=0.8em">**Citation:** Matt Ravenhall, Ernest Diez Benavente, Mwapatsa Mipando, Anja T. R. Jensen, Colin J. Sutherland, Cally Roper, Nuno Sepúlveda, Dominic P. Kwiatkowski, Jacqui Montgomery, Kamija S. Phiri, Anja Terlouw, Alister Craig, Susana Campino, Harold Ocholla and Taane G. Clark. Characterizing the impact of sustained sulfadoxine/pyrimethamine use upon the Plasmodium falciparum population in Malawi. <i>Malaria Journal</i> 201615:575</p>
