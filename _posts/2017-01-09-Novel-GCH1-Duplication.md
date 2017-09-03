@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Novel Duplication in gch1 Promoter Region"
-date: 2015-01-09
+date: 2017-01-09
 ---
 
 <img style="float: right; border: 1px solid black" alt="Coverage plots for gch1 indication regions of duplication." hspace="20" src="/assets/gch1duplication.png">
