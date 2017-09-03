@@ -3,11 +3,13 @@ layout: default
 title: Publications
 ---
 
+<script src="/orcid.js">
+
 <h1>{{ page.title }}</h1>
 <p>A full list of publications can be found on <a href="https://orcid.org/0000-0002-7818-2348">orcid</a>.</p>
 
-<div id="myPublications"></div>
-
-<script src="/orcid.js">
+<script>
   createORCIDProfile("0000-0002-7818-2348","myPublications")
 </script>
+
+<div id="myPublications"></div>
