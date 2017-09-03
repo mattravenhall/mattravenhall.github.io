@@ -44,11 +44,3 @@ ul.posts li {
     font-size=0.8em;
     list-style: none;
 }
-sitebody {
-    float: left;
-    width: 50%;
-}
-siteimage {
-    float: right;
-    width: 50%;
-}
