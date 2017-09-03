@@ -4,16 +4,11 @@ title: Matt Ravenhall
 ---
 
 <div class="blurb">
-  <div style="float: left; width: 50%;">
-    <h1>Matt Ravenhall</h1>
-    <h2><i>Computational Biologist, Data Scientist, Science Communicator</i></h2>
+  <h1>Matt Ravenhall</h1>
+  <i>Computational Biologist, Data Scientist, Science Communicator</i>
 
-    <h1>Latest Updates</h1>
-    {% for post in site.posts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]</li>
-    {% endfor %}
-  </div>
-  <div style="float: right; width: 50%;">
-    <img src='/assets/sideimage.png'></img>
-  </div>
-</div>
+  <h1>Latest Updates</h1>
+  {% for post in site.posts limit:3 %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]</li>
+  {% endfor %}
+</div><!-- close blurb -->
