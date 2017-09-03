@@ -10,4 +10,4 @@ date: 2017-08-01
 <br><br>
 [Full Text](http://ac.els-cdn.com/S2211320717300131/1-s2.0-S2211320717300131-main.pdf?_tid=489f64ec-90e8-11e7-9d8d-00000aab0f27&acdnat=1504471478_a51f91bb5f4694635870817b1409183a)
 <br>
-<p style="font-size:0.8em">**Citation:** Ana RitaGomes, Matt Ravenhall, Ernest Diez Benavente, Arthur Talman, Colin Sutherland, Cally Roper, Taane G. Clark and Susana Campino. Genetic diversity of next generation antimalarial targets: A baseline for drug resistance surveillance programmes. International Journal for Parasitology: Drugs and Drug Resistance. 2017: 174-180.</p>
+<p style="font-size:0.8em"><b>Citation:</b> Ana RitaGomes, Matt Ravenhall, Ernest Diez Benavente, Arthur Talman, Colin Sutherland, Cally Roper, Taane G. Clark and Susana Campino. Genetic diversity of next generation antimalarial targets: A baseline for drug resistance surveillance programmes. International Journal for Parasitology: Drugs and Drug Resistance. 2017: 174-180.</p>

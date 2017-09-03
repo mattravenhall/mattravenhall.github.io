@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Paper: Impact of SP in Malawi"
-date: 2017-01-09
+title: "Paper: Characterising the Impact of SP in Malawi"
+date: 2016-11-29
 ---
 
 <img style="float: right; border: 1px solid black" alt="Coverage plots for gch1 indication regions of duplication." hspace="20" src="/assets/gch1duplication.png" width="450px">
@@ -20,4 +20,4 @@ SP resistance selection pressures have been retained in the Malawian population,
 <br><br>
 [Full Text](https://malariajournal.biomedcentral.com/track/pdf/10.1186/s12936-016-1634-6?site=malariajournal.biomedcentral.com)
 <br>
-<p style="font-size=0.8em">**Citation:** Matt Ravenhall, Ernest Diez Benavente, Mwapatsa Mipando, Anja T. R. Jensen, Colin J. Sutherland, Cally Roper, Nuno Sepúlveda, Dominic P. Kwiatkowski, Jacqui Montgomery, Kamija S. Phiri, Anja Terlouw, Alister Craig, Susana Campino, Harold Ocholla and Taane G. Clark. Characterizing the impact of sustained sulfadoxine/pyrimethamine use upon the Plasmodium falciparum population in Malawi. <i>Malaria Journal</i> 201615:575</p>
+<p style="font-size=0.8em"><b>Citation:</b> Matt Ravenhall, Ernest Diez Benavente, Mwapatsa Mipando, Anja T. R. Jensen, Colin J. Sutherland, Cally Roper, Nuno Sepúlveda, Dominic P. Kwiatkowski, Jacqui Montgomery, Kamija S. Phiri, Anja Terlouw, Alister Craig, Susana Campino, Harold Ocholla and Taane G. Clark. Characterizing the impact of sustained sulfadoxine/pyrimethamine use upon the Plasmodium falciparum population in Malawi. <i>Malaria Journal</i> 201615:575</p>
