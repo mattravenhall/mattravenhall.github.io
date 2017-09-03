@@ -10,5 +10,4 @@ date: 2015-05-28
 <br><br>
 [Full Text](http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004095&type=printable)
 <br>
-<p style="font-size=0.8em"><b>Citation:</b>
- Matt Ravenhall, Nives Skunca, Florent Lassalle, & Christophe Dessimoz. Inferring Horizontal Gene Transfer. PLoS Computational Biology. 2015. 11(5): e1004095. doi:10.1371/journal.pcbi.1004095</p>
+<p style="font-size=0.8em"><b>Citation:</b> Matt Ravenhall, Nives Skunca, Florent Lassalle, & Christophe Dessimoz. Inferring Horizontal Gene Transfer. PLoS Computational Biology. 2015. 11(5): e1004095. doi:10.1371/journal.pcbi.1004095</p>
