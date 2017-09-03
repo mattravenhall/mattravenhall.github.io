@@ -5,13 +5,13 @@ title: Matt Ravenhall
 
 <div class="blurb">
   <img style="float: right; hspace=20; border: 2px solid black" src="/assets/yakultposter.png">
-  <b>Matt Ravenhall</b>
+  <h2>Matt Ravenhall</h2>
   <i>Computational Biologist, Data Scientist, Science Communicator</i>
-  <br>
-  <b>Latest Updates</b>
+
+  <h2>Latest Updates</h2>
   <ul>
     {% for post in site.posts limit:3 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]</li>
     {% endfor %}
   </ul>
-</div><!-- close blurb -->
+</div>
