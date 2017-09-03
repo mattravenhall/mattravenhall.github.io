@@ -8,7 +8,7 @@ date: 2015-07-28
 
 Almost a year ago, I was travelling on the London Underground when I spotted the following advertisement/competition on the wall. I quickly realised that this is exactly the sort of problem which can quickly be solved with a simple bit of code. Why? Because despite the solution itself being fairly simple (grab a list of the tube names and remove any which include letters found within the given word, then return the left over station/s), the actual task of eliminating stations is boring, repetitive and slow. Exactly what computers are designed for.
 
-**Function Overview**
+<h3>**Function Overview**</h3>
 So let’s get stuck into the code, for this I’ve used Python but obviously it’ll work in any programming language.
 
 The core of this code all exists within one function, called riddle(), which takes the word with all the letters the final tube station shouldn’t include. In the above case, that word is ‘MACKEREL’ so we would call this function within a Python interpreter with riddle(‘MACKEREL’). There are also two optional arguments, whose default values are False.
@@ -20,7 +20,7 @@ def riddle(word, infile=False, displayFalse=False):
 
 One is ‘displayedFalse‘ which, when set as True, will return a list of the stations that are not the correct solution alongside the correct answer/s. The second optional argument is ‘infile‘ which, if set to the location of a file, will convert a given file into a list. This list will then be used in place of the default tube stations.
 
-**Setting constants and variables**
+<h3>**Setting The Table**</h3>
 As standard, the first priority of the script is to assign the variables which will be used throughout the script. For this, we have two fairly self-explanatory lists:
 
 ```python
@@ -48,7 +48,7 @@ TUBELIST, not shown here in full, is a complete list of all the stations on the 
 
 falseList represents all the tube stations which contain letters found within the given keyword. This is also the list that will return if ‘displayFalse‘ is set to True. Population of this list is core to this script.
 
-**The Workhorse**
+<h3>**The Workhorse**</h3>
 Here we can start talking about the method behind the solution. My approach was to iterate through each station in TUBELIST, then through each letter in the given keyword. For each letter, we check if it is also found within the station (note the converstion to lowercase as ‘A’ doesn’t equal ‘a’). If a letter from the keyword is found within the station name, that station name is added to the end of falseList.
 
 ```python
