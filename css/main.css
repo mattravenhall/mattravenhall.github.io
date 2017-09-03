@@ -6,9 +6,10 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 5px;
     list-style: none;
     font-weight: bold;
+    font-color: #f0f0f0;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -41,6 +42,6 @@ ul.posts {
 }
 
 ul.posts li {
-    font-size=0.8em;
+    font-size: 1em;
     list-style: none;
 }
