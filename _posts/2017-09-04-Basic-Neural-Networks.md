@@ -4,14 +4,14 @@ title: "Exploring Basic Neural Networks"
 date: 2017-09-04
 ---
 
-I've recently been learning how to build simple neural networks in an attempt to nail the basics. This post is my attempt at summarising what I've learnt and sharing that information with others. A range of resources were used for this mini-project, but I'd like to give a specific hat-tip to a brilliant two-part blog by (\@iamtrask)[https://iamtrask.github.io/2015/07/12/basic-python-network/].
+I've recently been learning how to build simple neural networks in an attempt to nail the basics. This post is my attempt at summarising what I've learnt and sharing that information with others. A range of resources were used for this mini-project, but I'd like to give a specific hat-tip to a brilliant two-part blog by [@iamtrask](https://iamtrask.github.io/2015/07/12/basic-python-network/).
 
 **What is a Neural Network?**<br>
 As the name implies, neural networks are biologically inspired mathematical models that adopt the interconnectedness and boolean (on/off) behaviour of neurons.
 
 <img src="/assets/NNdiagram.png">
 
-A very simple neural network might consist of three input neurons (A, B and C) outputting a signal to a third (D). Depending on whether a neuron A, B and C fire, D may also fire. But not all neuron to neuron connects are the same. For example, neuron A's signal may be important and weighted 0.9, neuron B's signal may be barely informative and weighted 0.1, whilst C may be averagely important and weighted 0.5. Input to D therefore becomes the sigmoid function (see below) of (A's state * 0.9) + (B's state * 0.1) + (C's state * 0.5), where the input neuron's state is either 0 (off) or 1 (on).  So let's say that A is on (1), B is off (0) and C is on (1). The probability that D is on becomes the sigmoid function of (1*0.9) + (0*0.1) + 1*0.5). ie. 0.802, or 80.2%.
+A very simple neural network might consist of three input neurons (A, B and C) outputting a signal to a third (D). Depending on whether a neuron A, B and C fire, D may also fire. But not all neuron to neuron connects are the same. For example, neuron A's signal may be important and weighted 0.9, neuron B's signal may be barely informative and weighted 0.1, whilst C may be averagely important and weighted 0.5. Input to D therefore becomes the sigmoid function (see below) of (A's state \* 0.9) + (B's state \* 0.1) + (C's state \* 0.5), where the input neuron's state is either 0 (off) or 1 (on).  So let's say that A is on (1), B is off (0) and C is on (1). The probability that D is on becomes the sigmoid function of (1\*0.9) + (0\*0.1) + 1\*0.5). ie. 0.802, or 80.2%.
 
 The power behind this method is that the status of D can correspond to any specific factor, perhaps A's status is whether or not an animal has whiskers, B's status is whether or not an animal has fur, and C's status is whether or not an animal has four legs. The state of D could therefore indicate whether or not that animal is a cat.
 
@@ -22,7 +22,7 @@ Now that's all well and good, but how do we know which weights to apply to which
 **Pipeline In Summary**<br>
 We can code this core functionality as follows:
 - Begin with a training set of inputs ([1,0,0], [1,0,1], etc.) and their known outputs ([0],[1], etc.).
-- Assign initial (and at first random) weights to all neuron-neuron connections. Make this a matrix of dimensions (number of neurons in layer n) * (number of neurons in layer n+1).
+- Assign initial (and at first random) weights to all neuron-neuron connections. Make this a matrix of dimensions (number of neurons in layer n) \* (number of neurons in layer n+1).
 - Run the training dataset through the network and compare the output to the known truth.
 - Calculate the distance from our network's output to the expected output (ie. the error).
 - Feed this error (times our confidence regarding the output, more on this later) back into the weights to nudge them towards accuracy.
