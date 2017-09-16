@@ -30,7 +30,7 @@ We can code this core functionality as follows:
 - Use our (as accurate as they can be for now) weights on new test datasets for categorisation.
 
 **Example Script**<br>
-Most tutorials exploring basic neural networks will feature a script or two for the creation of specific sizes of neural networks (I've recreated a couple of them on my [github](https://mr664.github.io/BasicNeuralNetwork/basicNN.py)). I've also created a base class for the creation of neural networks of any size (ie. any number of layers and neurons). You can also find that script on my [github](https://mattravenhall.github.io/BasicNeuralNetwork/NeuralNetwork.py).
+Most tutorials exploring basic neural networks will feature a script or two for the creation of specific sizes of neural networks (I've recreated a couple of them on my [github](https://mattravenhall.github.io/BasicNeuralNetwork/basicNN.py)). I've also created a base class for the creation of neural networks of any size (ie. any number of layers and neurons). You can also find that script on my [github](https://mattravenhall.github.io/BasicNeuralNetwork/NeuralNetwork.py).
 
 To run the code simply:
 1. Import the NeuralNetwork module.
