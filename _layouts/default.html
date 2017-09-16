@@ -1,28 +1,13 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-  </head>
+
+  {% include head.html %}
 
   <body>
-    <nav>
-    <ul>
-      <li style="color:#f0f0f0"><a href="/">Home</a></li>
-      <li style="color:#f0f0f0"><a href="/about">About</a></li>
-      <li style="color:#f0f0f0"><a href="/blog/">Blog</a></li>
-      <li style="color:#f0f0f0"><a href="/projects">Projects</a></li>
-      <li style="color:#f0f0f0"><a href="/publications">Publications</a></li>
-    </ul>
-    </nav>
 
-    <div class="container">{{ content }}</div>
+    {% include sidebar.html %}
+    <div class="content container">{{ content }}</div>
+    
   </body>
-  <div>
-    <footer>
-      <p><div align="right">Created by Matt Ravenhall. Powered by <a href="https://jeykllrb.com">Jekyll</a>.</div></p>
-    </footer>
-  </div>
 </html>

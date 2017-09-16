@@ -4,7 +4,7 @@ title: "Exploring Basic Neural Networks"
 date: 2017-09-12
 ---
 
-I've recently been learning how to build simple neural networks in an attempt to nail the basics. This post is my attempt at summarising what I've learnt and sharing that information with others. A range of resources were used for this mini-project, but I'd like to give a specific hat-tip to a brilliant two-part blog by [@iamtrask](https://iamtrask.github.io/2015/07/12/basic-python-network/).
+I've recently been learning how to build simple neural networks in an attempt to nail the basics. This post is my attempt at summarising what I've learnt and sharing that information with others. A range of resources were used for this mini-project, but I'd like to give a specific hat-tip to a brilliant two-part blog by [linkid]: https://iamtrask.github.io/2015/07/12/basic-python-network/ "@iamtrask".
 
 **What is a Neural Network?**<br>
 As the name implies, neural networks are biologically inspired mathematical models that adopt the interconnected behaviour of neurons.
@@ -39,12 +39,13 @@ To run the code simply:
 4. Test the model, giving a test dataset input (the learned weights are automatically stored after training, but can also be returned).
 
 ```python
->>> import NeuralNetwork as NN
->>> n = NN.NeuralNetwork(size=[3,1], eons=10000)
->>> n.train(trainingInputs=np.array([[0,0,1],[0,1,1],[1,0,1],[1,1,1]]), trainingOutput=np.array([[0,0,1,1]]).T))
->>> n.test([1,0,0])
+import NeuralNetwork as NN
+n = NN.NeuralNetwork(size=[3,1], eons=10000)
+n.train(trainingInputs=np.array([[0,0,1],[0,1,1],[1,0,1],[1,1,1]]), trainingOutput=np.array([[0,0,1,1]]).T))
+n.test([1,0,0])
 0.9999370428352157
 ```
+
 Here our output is 0.9999, suggesting very high confidence for an input of [1,0,0] corresponding to the 1 classification.
 
 **Opportunities For Expansion**<br>
