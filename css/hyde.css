@@ -65,14 +65,14 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 10rem;
+    width: 15rem;
     text-align: left;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #a5a5a5;
 }
 
 /* Sidebar nav */

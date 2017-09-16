@@ -4,7 +4,7 @@ title: "Exploring Basic Neural Networks"
 date: 2017-09-12
 ---
 
-I've recently been learning how to build simple neural networks in an attempt to nail the basics. This post is my attempt at summarising what I've learnt and sharing that information with others. A range of resources were used for this mini-project, but I'd like to give a specific hat-tip to a brilliant two-part blog by [linkid]: https://iamtrask.github.io/2015/07/12/basic-python-network/ "@iamtrask".
+I've recently been learning how to build simple neural networks in an attempt to nail the basics. This post is my attempt at summarising what I've learnt and sharing that information with others. A range of resources were used for this mini-project, but I'd like to give a specific hat-tip to a brilliant two-part blog by [@iamtrask](https://iamtrask.github.io/2015/07/12/basic-python-network/).
 
 **What is a Neural Network?**<br>
 As the name implies, neural networks are biologically inspired mathematical models that adopt the interconnected behaviour of neurons.
