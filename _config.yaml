@@ -1,2 +1,6 @@
+name: Matt Ravenhall
+url: https://mattravenhall.github.io
 title: MR
 markdown: kramdown
+plugins:
+  - jekyll-feed
