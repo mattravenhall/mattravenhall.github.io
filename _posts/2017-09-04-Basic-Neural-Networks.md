@@ -9,7 +9,7 @@ I've recently been learning how to build simple neural networks in an attempt to
 **What is a Neural Network?**<br>
 As the name implies, neural networks are biologically inspired mathematical models that adopt the interconnected behaviour of neurons.
 
-<img src="/assets/NNdiagram.png">
+<img style="display: block; margin: 0 auto; border: 1px solid black" alt="Simple Neural Network." hspace="20" src="/assets/NNdiagram.png" width="450px">
 
 A very simple neural network might consist of three input neurons (A, B and C) outputting a signal to a third (D). Depending on whether a neuron A, B and C fire, D may also fire. But not all neuron to neuron connections are the same. For example, neuron A's signal may be particularly informative and weighted 0.9, neuron B's signal may be barely informative and weighted 0.1, whilst C may be averagely informative and weighted 0.5. Input to D therefore becomes the sigmoid function (see below) of (A's state \* 0.9) + (B's state \* 0.1) + (C's state \* 0.5), where the input neuron's state is either 0 (off) or 1 (on).  So let's say that A is on (1), B is off (0) and C is on (1). The probability that D is on becomes the sigmoid function of (1\*0.9) + (0\*0.1) + 1\*0.5). ie. 0.802, or 80.2%.
 
