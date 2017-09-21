@@ -63,3 +63,6 @@ html, body {
     background-attachment: fixed;
     background-size: auto;
 }
+.inline-block {
+   display: inline-block;
+}
