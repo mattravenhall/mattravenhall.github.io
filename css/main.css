@@ -54,3 +54,12 @@ hr {
     padding: 0;
     color: #091a3a;
 }
+html, body {
+    margin: 0;
+    height: 100%;
+    background-image: url("/assets/phylogeny.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
