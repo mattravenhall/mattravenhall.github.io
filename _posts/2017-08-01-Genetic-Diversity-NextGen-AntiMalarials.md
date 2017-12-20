@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper: Genetic Diversity of Next-Generation Antimalarial Targets"
+title: "Research: Genetic Diversity of Next-Generation Antimalarial Targets"
 date: 2017-08-01
 ---
 

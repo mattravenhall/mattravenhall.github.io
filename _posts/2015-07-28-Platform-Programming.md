@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Platform Programming"
+title: "Blog: Platform Programming"
 date: 2015-07-28
 ---
 

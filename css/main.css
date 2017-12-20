@@ -7,10 +7,23 @@ a:hover {
 }
 h1 {
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+}
+h2 {
+    font-size: 1.2em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+}
+h3 {
+    font-size: 0.9em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+    margin-left: 0.1rem;
+    font-style: italic;
 }
 p {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.4em;
     color: #333;
 }
@@ -65,4 +78,7 @@ html, body {
 }
 .inline-block {
    display: inline-block;
+}
+li {
+    font-size:0.9em;
 }

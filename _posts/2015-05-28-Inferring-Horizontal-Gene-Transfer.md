@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper: Inferring Horizontal Gene Transfer"
+title: "Research: Inferring Horizontal Gene Transfer"
 date: 2015-05-28
 ---
 

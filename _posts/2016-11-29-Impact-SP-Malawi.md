@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper: Characterising the Impact of SP in Malawi"
+title: "Research: Characterising the Impact of SP in Malawi"
 date: 2016-11-29
 ---
 

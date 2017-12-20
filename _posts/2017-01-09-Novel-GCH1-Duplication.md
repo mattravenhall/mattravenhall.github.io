@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Novel Duplication in gch1 Promoter Region"
+title: "Blog: Novel Duplication in gch1 Promoter Region"
 date: 2017-01-09
 ---
 
