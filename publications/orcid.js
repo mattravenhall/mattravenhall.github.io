@@ -26,7 +26,7 @@ function createORCIDProfile(orcidID, elementID) {
                 response.json().then(function (data) {
 
                     ////DEBUG!
-                    console.log(data);
+                    //console.log(data);
 
                     var output = "";
                     for (var i in data.group) {
@@ -46,7 +46,13 @@ function createORCIDProfile(orcidID, elementID) {
 
                         //DOI REFERENCE
                         if (data.group[i]["external-ids"]["external-id"]["length"] != 0) {
-                            var doiReference = data.group[i]["external-ids"]["external-id"]["0"]["external-id-value"];
+                            for (var j in data.group[i]["external-ids"]["external-id"]) {
+                                console.log(data.group[i]["external-ids"]["external-id"][j]);
+                                if (data.group[i]["external-ids"]["external-id"][j]["external-id-type"] == 'doi') {
+                                    var doiReference = data.group[i]["external-ids"]["external-id"][j]["external-id-value"];
+                                    break;
+                                }
+                            }
                         }
                         else {
                             var doiReference = "";
