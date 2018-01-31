@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Research: Salmonella typhi-specific responses to bile"
+title: "Research: Salmonella typhi Specific Responses to bile"
 date: 2017-12-11
 ---
 
