@@ -6,7 +6,7 @@ date: 2018-03-08
 
 <img style="float: right; border: 1px solid black" alt="Change to #phdlife tweet sentiment over time." hspace="20" src="/assets/tweetsentiments.png" width="450px">
 
-Automatic tweet sentiment analysis is a surprisingly exciting solution to everything from high frequency stock trading (as with Planet Money's '[Bot of the US](https://twitter.com/botus">Bot of the US)') to live monitoring of service up-statuses (such as the brilliant [DownDetector](http://downdetector.co.uk/)).
+Automatic tweet sentiment analysis is a surprisingly exciting solution to everything from high frequency stock trading (as with Planet Money's '[Bot of the US](https://twitter.com/botus)') to live monitoring of service up-statuses (such as the brilliant [DownDetector](http://downdetector.co.uk/)).
 
 Given these examples, I decided to try my hand at hacking together a solution for determining average tweet sentiment for a given hashtag over time. This solution features two major components: Tweepy-based tweet fetching and TextBlob-based sentiment analysis.
 
