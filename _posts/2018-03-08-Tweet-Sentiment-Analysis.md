@@ -11,7 +11,7 @@ Automatic tweet sentiment analysis is a surprisingly exciting solution to everyt
 Given these examples, I decided to try my hand at hacking together a solution for determining average tweet sentiment for a given hashtag over time. This solution features two major components: Tweepy-based tweet fetching and TextBlob-based sentiment analysis.
 
 **Fetching Tweets**<br>
-First things first, we need tweets. For this it's best to interact with the Twitter api for which Tweepy is a great option for Python. But the api has limits, we can't just pull down every tweet since forever, instead we periodically pull down the latest tweets with a particular search term in it. This works perfectly as we're interested in tracking sentiment over time, so grabbing the latest few tweets every 30 minutes should work perfectly.
+First things first, we need tweets. For this it's best to interact with the Twitter api for which [Tweepy](http://www.tweepy.org/) is a great option for Python. But the api has limits, we can't just pull down every tweet since forever, instead we periodically pull down the latest tweets with a particular search term in it. This works perfectly as we're interested in tracking sentiment over time, so grabbing the latest few tweets every 30 minutes should work perfectly.
 
 Note that access to the Twitter api also requires the appropriate access tokens and keys. Once you have a twitter account, head to the [apps page](https://apps.twitter.com), fill in your app's info and save the keys. Also note that this means that the Github version of the script will not work out the box, as I haven't included my api keys. If you wish to use it, you should add your own keys at the top of the script.
 
