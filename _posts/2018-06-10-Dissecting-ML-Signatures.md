@@ -4,7 +4,7 @@ title: "Blog: Exploring ML Signatories"
 date: 2018-06-10
 ---
 
-Nature recently announced the launch of [*Nature Machine Intelligence*](https://www.nature.com/natmachintell/), a new journal focusing on Machine Learning. Usually journal launches are fairly uneventful but this one caught the attention of open access advocates within the machine learning community leading to the release of an open statement decrying Nature for not adopting a full zero cost open access approach (such as that deployed by the [Journal of Machine Learning Research](http://www.jmlr.org/)).
+Nature recently announced the launch of [*Nature Machine Intelligence*](https://www.nature.com/natmachintell/), a new journal focusing on Machine Learning. Usually journal launches are fairly uneventful but this one caught the attention of open access advocates within the machine learning community, leading to the release of an open statement decrying Nature for not adopting a full zero cost open access approach (such as that deployed by the [Journal of Machine Learning Research](http://www.jmlr.org/)).
 
 Politics of open access aside, despite being claimed as containing both 3000 ['researchers'](https://www.theguardian.com/science/blog/2018/may/29/why-thousands-of-ai-researchers-are-boycotting-the-new-nature-journal) and ['tech giants'](https://www.forbes.com/sites/samshead/2018/04/30/tech-giant-ai-researchers-boycott-nature-machine-intelligence-journal/#1ef58f015e01), I heard claims that the majority of signatories were students and therefore unlikely to impact the journal through a boycott. Having had a quick glance at the list itself, I realised this could be a good project for some web scraping.
 
