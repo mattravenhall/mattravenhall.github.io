@@ -2,5 +2,11 @@ name: Matt Ravenhall
 url: https://mattravenhall.github.io
 title: MR
 markdown: kramdown
+highlighter: rouge
+future: true
 plugins:
   - jekyll-feed
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
