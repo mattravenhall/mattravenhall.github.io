@@ -87,3 +87,50 @@ hr.title {
     text-align: center;
     margin-top: 5px;
 }
+
+/* Overlay Stuff */
+.tile {
+  float: left;
+  width: 180px;
+}
+.tilephoto {
+  border-radius: 5%;
+  border: solid #858585 1px;
+}
+.overlayText {
+  color: white;
+  font-size: 0.7em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.tile:hover .overlay-tile {
+  opacity: 0.8;
+}
+.overlay-tile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  border-radius: 5%;
+  background-color: #000000;
+  transition: all 0.3s ease-in-out 0s;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.overlayWrap-tile {
+  position: relative;
+  margin: 0.1em;
+}

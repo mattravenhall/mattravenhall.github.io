@@ -4,7 +4,7 @@ title: "Blog: Tracking Tweet Sentiment"
 date: 2018-03-08
 ---
 
-<img style="float: right; border: 1px solid black" alt="Change to #phdlife tweet sentiment over time." hspace="20" src="/assets/tweetsentiments.png" width="450px">
+<img style="float: right; border: 1px solid black" alt="Change to #phdlife tweet sentiment over time." hspace="20" src="/assets/posts/tweetsentiments.png" width="450px">
 
 Automatic tweet sentiment analysis is a surprisingly exciting solution to everything from high frequency stock trading (as with Planet Money's '[Bot of the US](https://twitter.com/botus)') to live monitoring of service up-statuses (such as the brilliant [DownDetector](http://downdetector.co.uk/)).
 

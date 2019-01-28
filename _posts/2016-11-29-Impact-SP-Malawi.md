@@ -4,7 +4,7 @@ title: "Research: Characterising the Impact of SP in Malawi"
 date: 2016-11-29
 ---
 
-<img style="float: right; border: 1px solid black" alt="Coverage plots for gch1 indication regions of duplication." hspace="20" src="/assets/gch1duplication.png" width="450px">
+<img style="float: right; border: 1px solid black" alt="Coverage plots for gch1 indication regions of duplication." hspace="20" src="/assets/posts/gch1duplication.png" width="450px">
 
 **Background**
 Malawi experienced prolonged use of sulfadoxine/pyrimethamine (SP) as the front-line anti-malarial drug, with early replacement of chloroquine and delayed introduction of artemisinin-based combination therapy. Extended use of SP, and its continued application in pregnancy is impacting the genomic variation of the Plasmodium falciparum population.

@@ -4,7 +4,7 @@ title: MR
 markdown: kramdown
 highlighter: rouge
 future: true
-plugins:
+gems:
   - jekyll-feed
 kramdown:
   input: GFM
