@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog: Exploring ML Signatories"
+title: "Blog: ML Petitioners Tend To Be US-based Students"
 date: 2018-06-10
 ---
 

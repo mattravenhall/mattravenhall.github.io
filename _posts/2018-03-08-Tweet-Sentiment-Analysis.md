@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog: Tracking Tweet Sentiment"
+title: "Blog: Tweet Sentiment Analysis Doesn't Not Struggle With Double Negatives"
 date: 2018-03-08
 ---
 
