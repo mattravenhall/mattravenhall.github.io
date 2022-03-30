@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog: Straight-forward, no-frills, in-browser to-do list"
+title: "Blog: Straight-Forward, No-Frills, In-Browser To-Do List"
 date: 2022-03-23
 ---
 
