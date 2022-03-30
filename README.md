@@ -18,5 +18,5 @@ gem install jekyll bundler
 bundle install
 
 # Serve locally
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
