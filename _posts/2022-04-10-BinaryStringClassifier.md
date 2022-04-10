@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blog: Classification of SMILES Strings with an LSTM"
-date: 2022-04-03
+date: 2022-04-10
 ---
 
 <img style="float: right; border: 1px solid black" alt="BSC-Model Help" hspace="20" src="/assets/posts/binarystringclassifier/help_model.png" width="450px">
