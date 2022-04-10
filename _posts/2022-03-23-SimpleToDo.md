@@ -20,4 +20,3 @@ If you want to try it out, your best bet is to:
 1. `git clone https://github.com/mattravenhall/SimpleToDo.git`
 2. Open a Chromium-based browser (Chrome, Brave, etc.)
 3. Navigate to `Extensions` ➡️ `Developer mode` ➡️ `Load unpacked` ➡️ Select the repo directory
-
