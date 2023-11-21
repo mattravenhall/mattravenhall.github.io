@@ -15,6 +15,8 @@ source ~/.bashrc
 gem install jekyll bundler
 
 # Install project gems
+bundle init
+echo "gem 'github-pages'" >> ./Gemfile
 bundle install
 
 # Serve locally
