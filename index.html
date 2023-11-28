@@ -5,18 +5,12 @@ title: Home
 
 <div class="blurb">
   <h2>Matt Ravenhall</h2>
-  <i>Machine Learning | Bioinformatics | Software Development</i>
+  <i>Machine Learning Engineer | Bioinformatics PhD | Software Developer</i>
   <hr class="title">
-
-  <ul style="list-style-type: circle">
-    <li>Machine Learning Engineer at <a href="https://www.congenica.com/">Congenica</a></li>
-    <li><a href="https://researchonline.lshtm.ac.uk/id/eprint/4653632/">Bioinformatics PhD</a> with a background in NLP</li>
-    <li>Often completing <a href="/projects">data science</a> and <a href="https://mattravenhall.itch.io/">game dev</a> projects</li>
-  </ul>
 
   <h2>Latest Posts</h2>
   <ul>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:6 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]</li>
     {% endfor %}
   </ul>
