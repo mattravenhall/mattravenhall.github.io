@@ -13,12 +13,12 @@ This time the theme was "What's Behind The Door?", so we developed a sinister ga
 ## Overview
 The player sits behind three buttons looking at a stage on which our AI host, N.O.A.H, ceremoniously invites the player to guess which of three doors has a specific object behind it.
 
-<img style="display: block; margin: 0 auto; border: 1px solid black" alt="Example door selection." hspace="20" src="/assets/posts/whatsbehindthedoor/doors.png" width="450px">
-
 The primary game loop is therefore pretty simple:
 1. Receive a prompt
 2. Hear three sounds
 3. Select the correct one and get 100 points
+
+<img style="display: block; margin: 0 auto; border: 1px solid black" alt="Example door selection." hspace="20" src="/assets/posts/whatsbehindthedoor/doors.png" width="450px">
 
 But in true 'Whose Line' style, the points mean nothing and, in reality, your choices direct you towards one of three hidden paths.
 
