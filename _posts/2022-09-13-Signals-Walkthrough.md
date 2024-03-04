@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game: Decoding mysterious puzzles in Signals"
+title: "Game: Decoding Mysterious Puzzles in Signals"
 date: 2022-09-13
 ---
 
