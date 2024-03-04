@@ -13,7 +13,7 @@ This time the theme was "What's Behind The Door?", so we developed a sinister ga
 ## Overview
 The player sits behind three buttons looking at a stage on which our AI host, N.O.A.H, ceremoniously invites the player to guess which of three doors has a specific object behind it.
 
-<img style="display: block; margin: 0 auto; border: 1px solid black" alt="Example door selection." hspace="20" src="/assets/posts/whatsbehindthedoor/doors.png">
+<img style="display: block; margin: 0 auto; border: 1px solid black" alt="Example door selection." hspace="20" src="/assets/posts/whatsbehindthedoor/doors.png" width="450px">
 
 The primary game loop is therefore pretty simple:
 1. Receive a prompt
@@ -28,6 +28,7 @@ Under the hood, the game has two parts: a core path of eight rounds followed by 
 By default, players will end up on the red path unless they pick both green/blue options and enter the corresponding green/blue sequence on round 7.
 
 ### Core Path
+
 | Round | Door 1 | Door 2 | Door 3 | Alternative |
 | :---: | :----: | :----: | :----: | :---: |
 | 0 | 0 | 0 | <span style="color:red;font-weight:bold;">+100</span> | |
@@ -40,6 +41,7 @@ By default, players will end up on the red path unless they pick both green/blue
 | 7 | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:green;font-weight:bold;">Sequence: 32113</span><br><span style="color:blue;font-weight:bold;">Sequence: 22132</span> |
 
 ### Red Path (Bad Ending)
+
 | Round | Door 1 | Door 2 | Door 3 |
 | :---: | :----: | :----: | :----: |
 | 8 | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:red;font-weight:bold;">+100</span> |
@@ -54,6 +56,7 @@ Playing the gameshow as a gameshow, will result in the red/bad ending in which i
 </details>
 
 ### Green Path (Good Ending)
+
 | Round | Door 1 | Door 2 | Door 3 | Alternative |
 | :---: | :----: | :----: | :----: | :---: |
 | 8 | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:red;font-weight:bold;">+100</span> | <span style="color:green;font-weight:bold;">Do Nothing</span> |
