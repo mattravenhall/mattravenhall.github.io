@@ -33,7 +33,7 @@ These arm OwenWowson with the following commands:
 
 ## Anatomy of a wow
 
-[<img style="float: right; border: 1px solid black" alt="Example !wow" hspace="20" src="/assets/posts/owenwowson/example_wow.png" width="350px">](/assets/posts/owenwowson/example_wow.png)
+[<img style="border: 1px solid black" alt="Example !wow" hspace="20" src="/assets/posts/owenwowson/example_wow.png" width="350px">](/assets/posts/owenwowson/example_wow.png)
 
 When the `!wow` command is called, a number of things will happen:
 
@@ -41,4 +41,4 @@ When the `!wow` command is called, a number of things will happen:
 2. A text response is built containing all crucial metadata
 3. That voice clip is played in the relevant voice channels
 
-<!-- You can find OwenWowson's source code on [GitHub](https://github.com/mattravenhall/OwenWowson). -->
+You can find OwenWowson's source code on [GitHub](https://github.com/mattravenhall/OwenWowson).
