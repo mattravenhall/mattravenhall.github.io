@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blog: Building a Discord Bot"
-date: 2022-05-22
+date: 2022-11-30
 ---
 
 [<img style="float: right; border: 1px solid black" alt="Bot logo" hspace="20" src="/assets/posts/owenwowson/owenwowson.png" width="250px">](/assets/posts/owenwowson/owenwowson.png)
