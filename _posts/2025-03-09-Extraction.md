@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Game: Extraction"
-date: 2025-02-01
+date: 2025-03-09
 ---
 
 [<img style="float: right; border: 1px solid black" alt="Extraction Screenshot." hspace="20" src="/assets/posts/extraction/water_landing.png" width="350px">](/assets/posts/extraction/water_landing.png)
