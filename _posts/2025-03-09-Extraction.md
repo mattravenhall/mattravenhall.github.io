@@ -70,3 +70,6 @@ Rater comments were generally positive, as seems typical for game jams, with one
 
 ### Rating Distribution
 [<img style="display: block; margin: 0 auto; border: 1px solid black" alt="Ratings Distribution" hspace="20" src="/assets/posts/extraction/star_ratings_plot.png" width="500px">](/assets/posts/extraction/star_ratings_plot.png)
+
+
+You can play _Extraction_ now on [itch.io](https://mattravenhall.itch.io/extraction)

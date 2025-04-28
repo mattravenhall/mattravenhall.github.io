@@ -6,6 +6,15 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <!-- Enable mermaid diagram support -->
+  <script type="module">
+   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+   mermaid.initialize({ startOnLoad: true });
+   await mermaid.run({
+       querySelector: '.language-mermaid',
+   });
+  </script>
+
   <title>
     {% if page.title == "Matt Ravenhall" %}
       {{ site.title }} &middot; {{ site.tagline }}
