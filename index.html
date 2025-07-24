@@ -3,15 +3,37 @@ layout: default
 title: Home
 ---
 
+<script src="assets/js/postfiltering.js"></script>
+
 <div class="blurb">
   <h2>Matt Ravenhall</h2>
-  <i>Machine Learning Engineer | Bioinformatics PhD | Software Developer</i>
+  <i>ML Engineer | Bioinformatics PhD | Software Developer</i>
   <hr class="title">
+</div>
 
+<div class="posts-section">
   <h2>Latest Posts</h2>
-  <ul>
-    {% for post in site.posts limit:6 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]</li>
+  <div class="tag-filters">
+    <button class="tag-button active" data-tag="all">All</button>
+    {% assign all_tags = site.posts | map: "tag" | uniq | sort | reverse %}
+    {% for tag in all_tags %}
+      <button class="tag-button" data-tag="{{ tag }}">
+        {% case tag %}
+          {% when 'insights' %}📊
+          {% when 'games' %}🎮
+          {% when 'research' %}🔬
+          {% when 'tools' %}🔧
+          {% else %}
+        {% endcase %}
+        {{ tag | capitalize }}
+      </button>
+    {% endfor %}
+  </div>
+  <ul class="posts-list">
+    {% for post in site.posts limit:50 %}
+    <li class="post-item" data-tag="{{ post.tag | strip | default: '' }}">
+     <span class="tag-emoji" data-tag-type="{{ post.tag | strip | default: '' }}"></span><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]
+    </li>
     {% endfor %}
   </ul>
 </div>

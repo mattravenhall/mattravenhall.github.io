@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Building a Discord Bot"
+title: "Building a Discord Bot"
+tag: tools
 date: 2022-11-30
 ---
 

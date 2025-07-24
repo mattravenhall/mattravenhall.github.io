@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Game: What's Behind The Door?"
+title: "What's Behind The Door?"
+tag: games
 date: 2024-03-05
 ---
 

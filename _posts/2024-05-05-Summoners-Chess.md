@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Game: Summoners Chess"
+title: "Summoners Chess"
+tag: games
 date: 2024-05-05
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Exploring Basic Neural Networks"
+title: "Exploring Basic Neural Networks"
+tag: tools
 date: 2017-09-12
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Tweet Sentiment Analysis Doesn't Not Struggle With Double Negatives"
+title: "Tweet Sentiment Analysis Doesn't Not Struggle With Double Negatives"
+tag: tools
 date: 2018-03-08
 ---
 

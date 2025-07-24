@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Classification of SMILES Strings with an LSTM"
+title: "Classification of SMILES Strings with an LSTM"
+tag: tools
 date: 2022-04-03
 ---
 

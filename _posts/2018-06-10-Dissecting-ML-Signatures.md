@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: ML Petitioners Tend To Be US-based Students"
+title: "ML Petitioners Tend To Be US-based Students"
+tag: insights
 date: 2018-06-10
 ---
 

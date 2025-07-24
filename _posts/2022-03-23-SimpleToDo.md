@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Straight-Forward, No-Frills, In-Browser To-Do List"
+title: "Straight-Forward, No-Frills, In-Browser To-Do List"
+tag: tools
 date: 2022-03-23
 ---
 

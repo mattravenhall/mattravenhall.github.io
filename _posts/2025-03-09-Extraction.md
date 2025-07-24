@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Game: Extraction"
+title: "Extraction"
+tag: games
 date: 2025-03-09
 ---
 

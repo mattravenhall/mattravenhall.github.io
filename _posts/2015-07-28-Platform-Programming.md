@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Platform Programming"
+title: "Platform Programming"
+tag: insights
 date: 2015-07-28
 ---
 

@@ -134,3 +134,71 @@ hr.title {
   position: relative;
   margin: 0.1em;
 }
+
+/* Homepage post filtering */
+.tag-filters button {
+  /* Layout & Sizing */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px; /* Slightly less padding for a tighter, academic look */
+  margin: 2px;
+  cursor: pointer;
+  
+  /* Appearance */
+  background: transparent; /* No background fill by default */
+  border: none; /* No visible border initially */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Very subtle underline */
+  border-radius: 0; /* Sharp, academic corners */
+  
+  /* Text Styling */
+  font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* A classic serif font for academic feel */
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333; /* Dark grey for good readability */
+  text-transform: none; /* No uppercase for academic style */
+  letter-spacing: normal; /* Normal letter spacing */
+  
+  /* Transitions */
+  transition: all 0.2s ease-out; /* Smooth but quick transitions */
+
+  /* Positioning for optional hover/active underline */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effect: Subtle underline growth or color change */
+.tag-filters button:hover {
+  color: #0056b3; /* A classic academic blue */
+  border-bottom-color: #0056b3; /* Underline becomes blue */
+  transform: translateY(-1px); /* Very subtle lift, almost imperceptible */
+}
+
+/* Active State (for currently selected filter) & Click/Tap Feedback */
+.tag-filters button.active,
+.tag-filters button:active {
+  background-color: rgba(0, 90, 158, 0.08); /* A very light, transparent academic blue background */
+  color: #004085; /* Darker academic blue text */
+  border-bottom-color: #004085; /* Darker underline */
+  font-weight: 600; /* Bolder text for active state */
+  transform: translateY(0); /* Reset lift on active */
+}
+
+.posts-list {
+  padding-left: 10px; /* Added to make bullet points visible */
+  /*list-style-type: circle;*/
+}
+
+/* Basic styling for post list items */
+.post-item {
+  margin-bottom: 0px;
+  /*font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;*/
+  /*color: #333333;*/
+  line-height: 1.4;
+}
+
+/* Style for the emoji span in post items to ensure consistent spacing */
+.tag-emoji {
+  margin-right: 5px; /* Adjust spacing between emoji and title */
+  /*font-size: 0.9pc;*/
+}

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Game: The Retreat"
+title: "The Retreat"
+tag: games
 date: 2025-04-26
 mermaid: true
 ---

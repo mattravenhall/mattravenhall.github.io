@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Article: Evidence Suggests Ancient Humans Hunted Cave Lions"
+title: "Evidence Suggests Ancient Humans Hunted Cave Lions"
+tag: insights
 date: 2016-10-26
 ---
 

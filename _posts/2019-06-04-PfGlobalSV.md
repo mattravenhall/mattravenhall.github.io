@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Research: Exploring Global Structural Variation in P. falciparum"
+title: "Exploring Global Structural Variation in P. falciparum"
+tag: research
 date: 2019-06-04
 ---
 

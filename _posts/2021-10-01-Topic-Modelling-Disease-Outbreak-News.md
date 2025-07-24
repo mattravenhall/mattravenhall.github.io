@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Disease Outbreak Topics in Early COVID-19 Reports"
+title: "Disease Outbreak Topics in Early COVID-19 Reports"
+tag: insights
 date: 2021-10-01
 ---
 

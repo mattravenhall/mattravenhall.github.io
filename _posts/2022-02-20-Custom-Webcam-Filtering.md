@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blog: Extendable Webcam Customisation with Python"
+title: "Extendable Webcam Customisation with Python"
+tag: tools
 date: 2022-02-20
 ---
 

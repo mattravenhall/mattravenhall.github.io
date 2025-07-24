@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Research: Novel Severe Malaria SNP Associations in Tanzania"
+title: "Novel Severe Malaria SNP Associations in Tanzania"
+tag: research
 date: 2018-01-31
 ---
 
