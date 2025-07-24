@@ -30,7 +30,7 @@ title: Home
     {% endfor %}
   </div>
   <ul class="posts-list">
-    {% for post in site.posts limit:50 %}
+    {% for post in site.posts %}
     <li class="post-item" data-tag="{{ post.tag | strip | default: '' }}">
      <span class="tag-emoji" data-tag-type="{{ post.tag | strip | default: '' }}"></span><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.date | date_to_string }}]
     </li>

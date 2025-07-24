@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const tagButtons = document.querySelectorAll('.tag-button');
   const postItems = document.querySelectorAll('.post-item');
-  const maxPosts = 12;
+  const maxPosts = 8;
 
   // Define your tag-to-emoji mapping here (used for post prefixes when 'All' is selected)
   const tagEmojiMap = {
